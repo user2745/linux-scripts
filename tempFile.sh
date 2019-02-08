@@ -22,3 +22,7 @@ echo "Launching script..."
 rmTemp
 mkTemp
 echo "All Done"
+
+
+#TODO
+#Error Handling
