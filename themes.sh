@@ -14,7 +14,14 @@ if [ -f ~/.themes/ ]
     echo "Made "
 else 
     echo "No previous themes dir found.."
-    echo ""
+if [ -d ~/gnome-themes/ ]; then
+echo "Installing dependencies... "
+bash ~/gnome-themes/install-requirements-debian
+
+else 
+    echo "File not downloaded! Is git installed?"
+    echo "exiting..."
+    exit 1
 fi 
 
 #Original Repo
