@@ -1,5 +1,9 @@
 #!/bin/sh
 
+#Installs themes 
+#Thin wrapper around install-gnome-themes
+#Original Repo
+#https://github.com/tliron/install-gnome-themes.git
 
 if [ -f ~/.themes/ ]
 #Copies current themes into different folder
