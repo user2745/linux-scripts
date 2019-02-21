@@ -29,11 +29,5 @@ else
     exit 1
 fi
 
-echo "Installing themes..."
-bash ~/gnome-themes/install-gnome-themes
-echo "all Done!"
-
-echo "Removing the gnome themes folder"
-rm -rf ~/gnome-themes/
-
-exit 1
+#TODO
+#Rewrite into functional programming 
