@@ -24,5 +24,11 @@ else
     exit 1
 fi 
 
-#Original Repo
-#https://github.com/tliron/install-gnome-themes.git
+echo "Installing themes..."
+bash ~/gnome-themes/install-gnome-themes
+echo "all Done!"
+
+echo "Removing the gnome themes folder"
+rm -rf ~/gnome-themes/
+
+exit 1
