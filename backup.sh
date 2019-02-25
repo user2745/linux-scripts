@@ -1,4 +1,12 @@
-#Rsync Script
+#File(s) Backup Script
 #Created w/ functional programming style
 
-echo "Running rysnc..."
+saveThemes() 
+{
+    #Saves current themes folder
+    cd ~/
+    counter=$[counter+1]
+    FILENAME=$(THEMES_SNAPSHOT$counter)
+
+    zip -rv oldThemes.zip ~/.themes/
+}
