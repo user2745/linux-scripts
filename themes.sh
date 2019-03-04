@@ -5,6 +5,8 @@
 #Original Repo
 #https://github.com/tliron/install-gnome-themes.git
 
+backupThemes(){
+
 if [ -f ~/.themes/ ]; then
 #Copies current themes into different folder
     echo "Themes files detected!"  
@@ -15,6 +17,10 @@ if [ -f ~/.themes/ ]; then
 else
     echo "No previous themes dir found.."
      fi 
+
+}
+
+makeFolder() {
 
 echo "downloading gnome themes "
 git clone https://github.com/tliron/install-gnome-themes ~/gnome-themes/
@@ -28,6 +34,8 @@ else
     echo "exiting..."
     exit 1
 fi
+
+}
 
 #TODO
 #Rewrite into functional programming 
