@@ -10,3 +10,5 @@ saveThemes()
 
     zip -rv oldThemes.zip ~/.themes/
 }
+
+saveThemes()

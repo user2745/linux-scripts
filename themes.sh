@@ -36,6 +36,5 @@ else
 fi
 
 }
-
-#TODO
-#Rewrite into functional programming 
+backupThemes
+makeFolder
