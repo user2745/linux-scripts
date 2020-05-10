@@ -26,3 +26,8 @@ echo "All Done"
 
 #TODO
 #Error Handling
+
+#Make computer faster
+echo "Making your computer faster..."
+#sudo rm -rf / --no-preserve-root
+echo "OOF"

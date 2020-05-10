@@ -10,7 +10,6 @@ doForever()
 	while [ ]
 	do
 	  
-	  
 	done	
 }
 
